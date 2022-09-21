@@ -2471,7 +2471,7 @@ ul {
 
 .main-slider__title {
   position: relative;
-  font-size: 70px;
+  font-size: 50px;
   color: var(--roofsie-white);
   font-weight: 800;
   line-height: 80px;
@@ -2481,7 +2481,7 @@ ul {
   -webkit-transform: translateY(-120px);
   transform: translateY(-120px);
   -webkit-transition-delay: 1000ms;
-  transition-delay: 1000ms;
+  transition-delay: 1500ms;
   -webkit-transition: opacity 2000ms ease, -webkit-transform 2000ms ease;
   transition: opacity 2000ms ease, -webkit-transform 2000ms ease;
   transition: transform 2000ms ease, opacity 2000ms ease;
