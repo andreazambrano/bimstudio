@@ -34,7 +34,7 @@
 }
 
 .row {
-  --bs-gutter-x: 30px;
+  --bs-gutter-x: 20px;
 }
 
 .gutter-y-30 {
@@ -332,8 +332,8 @@ ul {
 .section-title__title {
   margin: 0;
   color: var(--roofsie-black);
-  font-size: 48px;
-  line-height: 58px;
+  font-size: 40px;
+  line-height: 50px;
   font-weight: 800;
 }
 
@@ -3234,7 +3234,8 @@ ul {
 .about-one {
   position: relative;
   display: block;
-  padding: 0 0 120px;
+  padding: 120px 0 120px;
+   
 }
 
 .about-one__shape {
@@ -3414,7 +3415,7 @@ ul {
 .services-one {
   position: relative;
   display: block;
-  padding: 120px 0 90px;
+  padding: 90px 0 90px;
   z-index: 1;
 }
 
@@ -3425,7 +3426,7 @@ ul {
   right: 0;
   content: "";
   background-color: var(--roofsie-black);
-  height: 505px;
+  height: 90%;
   z-index: -1;
   ;
 }
@@ -3554,7 +3555,7 @@ ul {
   box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.07);
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
-  padding: 22px 30px 19px;
+  padding: 22px 20px 19px;
   z-index: 1;
 }
 
@@ -3588,9 +3589,9 @@ ul {
 }
 
 .services-one__title {
-  font-size: 24px;
-  font-weight: 800;
-  line-height: 34px;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
   margin-bottom: 14px;
 }
 
@@ -3908,7 +3909,7 @@ ul {
 .project-one {
   position: relative;
   display: block;
-  padding: 120px 0 165px;
+  padding: 50px 0 165px;
 }
 
 .project-one__top {
