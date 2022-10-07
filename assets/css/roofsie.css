@@ -10885,7 +10885,7 @@ ul {
 # About Four
 --------------------------------------------------------------*/
 .about-four {
-  background-color: var(--roofsie-white);
+  background-color: rgb(28 27 31);
   padding: 120px 0 96px;
 }
 
@@ -10958,7 +10958,7 @@ ul {
 .carousel-dot-style.owl-carousel .owl-dot.active {
   width: 16px;
   height: 16px;
-  background-color: var(--roofsie-base);
+  background-color: #212529;
 }
 
 .carousel-dot-style.owl-carousel .owl-dot:focus {

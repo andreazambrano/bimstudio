@@ -10884,7 +10884,7 @@ ul {
 # About Four
 --------------------------------------------------------------*/
 .about-four {
-  background-color: var(--roofsie-white);
+  background-color: #000;
   padding: 120px 0 96px;
 }
 
@@ -10975,6 +10975,7 @@ ul {
   position: relative;
   display: block;
   padding: 120px 0 165px;
+  background: black;
 }
 
 .gallery-carousel-page .gallery-page__single {
