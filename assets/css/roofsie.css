@@ -5831,7 +5831,7 @@ ul {
 .testimonial-two {
   position: relative;
   display: block;
-  background-color: var(--roofsie-primary);
+  background-color: rgb(28 27 31);
   padding: 120px 0 120px;
   z-index: 1;
 }
@@ -6780,7 +6780,7 @@ ul {
   border-top: 0;
   border-bottom-left-radius: var(--roofsie-bdr-radius);
   border-bottom-right-radius: var(--roofsie-bdr-radius);
-  background-color: var(--roofsie-white);
+  background-color: rgb(28 27 31);
   -webkit-transition: all 500ms ease;
   transition: all 500ms ease;
 }
@@ -6834,7 +6834,7 @@ ul {
 }
 
 .blog-two__title a {
-  color: var(--roofsie-black);
+  color: #f8f9fa;
   -webkit-transition: all 500ms ease;
   transition: all 500ms ease;
 }
@@ -6884,7 +6884,7 @@ ul {
   position: relative;
   display: inline-block;
   width: 100%;
-  color: var(--roofsie-black);
+  color: #f8f9fa;
   font-size: 12px;
   font-weight: 800;
   text-transform: uppercase;
