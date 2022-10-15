@@ -940,7 +940,7 @@ function growDiv() {
       var wrapper = document.querySelector('.measuringWrapper');
       growDiv.style.height = wrapper.clientHeight + "px";
     }
-document.getElementById("more-button").value=document.getElementById("more-button").value=='Mas'?'Menos':'Menos';
+document.getElementById("more-button").value=document.getElementById("more-button").value=='Mas'?'Menos':'Mas';
 }
 
 // -----------------------
