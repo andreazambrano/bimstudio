@@ -5947,8 +5947,8 @@ ul {
   max-width: 630px;
   width: 100%;
   margin: 0 auto 60px;
-  border: 1px solid #ede8e4;
-  border-radius: var(--roofsie-bdr-radius);
+ /* border: 1px solid #ede8e4;
+  border-radius: var(--roofsie-bdr-radius);*/
 }
 
 .project-filter.style1 li {
@@ -5960,7 +5960,7 @@ ul {
 }
 
 .project-filter.style1 li .filter-text {
-  color: var(--roofsie-black);
+  color: #f8f9fa;
   font-size: 14px;
   font-weight: 700;
   text-transform: uppercase;
