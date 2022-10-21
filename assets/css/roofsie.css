@@ -305,13 +305,16 @@ ul {
 }
 
 .section-sub-title {
-  font-size: 16px;
+  font-size: 28px;
   color: var(--roofsie-base);
-  font-weight: 700;
+  font-weight: 800;
   line-height: 26px;
   text-transform: uppercase;
   letter-spacing: 0.1em;
   margin-bottom: 10px;
+      background: -webkit-linear-gradient(#f6db94,#e7ae18);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .section-title-shape-1 {
@@ -332,9 +335,9 @@ ul {
 .section-title__title {
   margin: 0;
   color: var(--roofsie-black);
-  font-size: 48px;
+  font-size: 30px;
   line-height: 58px;
-  font-weight: 800;
+  font-weight: 600;
 }
 
 .bootstrap-select .btn-light:not(:disabled):not(.disabled).active,
