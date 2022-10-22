@@ -17,7 +17,7 @@
 # Common
 --------------------------------------------------------------*/
 :root {
-  --roofsie-font: 'Manrope', sans-serif;
+  --roofsie-font: 'Manrope', sans-serif,  'Architects Daughter', cursive ;
   --roofsie-reey-font: "reeyregular";
   --roofsie-gray: #6c6b6f;
   --roofsie-gray-rgb: 108, 107, 111;
@@ -107,7 +107,7 @@ ul {
 
 ::-webkit-input-placeholder {
   color: inherit;
-  opacity: 1;
+  opacity: 0.75;
 }
 
 :-ms-input-placeholder {
@@ -490,6 +490,7 @@ ul {
   left: 60px;
   z-index: 2;
   width: 40%;
+
 }
 
 .main-header__top {
@@ -498,8 +499,8 @@ ul {
   /*background-color: var(--roofsie-black);*/
   /*padding-left: 375px;*/
   padding-right: 22px;
-  padding-top: 5px;
-  padding-bottom: 5px;
+  padding-top: 20px;
+ /* padding-bottom: 5px;*/
 }
 
 .main-header__top-inner {
@@ -2780,8 +2781,8 @@ ul {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 18px;
-  color: rgba(var(--roofsie-white-rgb), .20);
+  font-size: 30px;
+  color: #ffc107;
   border: 2px solid rgba(var(--roofsie-white-rgb), .20);
   border-radius: 50%;
   margin: 0;
@@ -11274,3 +11275,11 @@ body.boxed-wrapper {
      -o-transform: rotate(0deg);  
      transform: rotate(0deg);   
 } 
+
+.lnr-apartment {
+  color: #0F52BA;
+  font-size: 40px;
+  /* To get crisp results, use sizes that are
+  a multiple of 20; because Linearicons was
+  designed on a 20 by 20 grid. */
+}
