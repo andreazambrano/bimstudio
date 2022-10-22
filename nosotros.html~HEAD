@@ -4,13 +4,14 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title> Bim Studio 360º </title>
+   <title> Bim Studio 360º</title>
     <!-- favicons Icons -->
     <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicons/apple-touch-icon.png" />
     <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicons/favicon-32x32.png" />
     <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicons/favicon-16x16.png" />
     <link rel="manifest" href="assets/images/favicons/site.webmanifest" />
-    <meta name="description" content="Roofsie HTML 5 Template " />
+    <meta name="description" content="Proyectos arquitectonicos y de ingenieria" />
+
 
     <!-- fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -44,6 +45,7 @@
     <!-- template styles -->
     <link rel="stylesheet" href="assets/css/roofsie.css" />
     <link rel="stylesheet" href="assets/css/roofsie-responsive.css" />
+    <link rel="stylesheet" href="assets/css/roofsie-dark.css" />
 </head>
 
 <body class="custom-cursor">
@@ -64,7 +66,7 @@
     <div class="page-wrapper">
         <header class="main-header clearfix">
             <div class="main-header__logo">
-                <a href="index.html"><img src="assets/images/resources/logo.png" alt=""></a>
+                <a href="index.html"><img src="assets/images/resources/logo-dark.png" alt=""></a>
             </div>
             <div class="main-header__top">
                 <div class="main-header__top-inner">
@@ -75,7 +77,7 @@
                                     <span class="fa fa-clock"></span>
                                 </i>
                                 <div class="text">
-                                    <p>Mon to Sat: 09:00 am to 05:00 pm</p>
+                                    <p>Horario: 09:00 am to 05:00 pm</p>
                                 </div>
                             </li>
                             <li>
@@ -83,25 +85,25 @@
                                     <span class="fa fa-envelope"></span>
                                 </i>
                                 <div class="text">
-                                    <p><a href="mailto:needhelp@company.com">needhelp@company.com</a></p>
+                                    <p><a href="mailto:correo@company.com">correo@company.com</a></p>
                                 </div>
                             </li>
                         </ul>
                     </div>
                     <div class="main-header__top-right">
-                        <div class="main-header__top-menu-box">
+                        <!-- <div class="main-header__top-menu-box">
                             <ul class="list-unstyled main-header__top-menu">
                                 <li><a href="faq.html">Our Faqs</a></li>
                                 <li><a href="contact.html">Pricing</a></li>
                                 <li><a href="contact.html">Contact</a></li>
                             </ul>
-                        </div>
+                        </div> -->
                         <div class="main-header__top-social-box">
                             <div class="main-header__top-social">
-                                <a href="about.html#"><i class="fab fa-facebook-square"></i></a>
-                                <a href="about.html#"><i class="fab fa-twitter"></i></a>
-                                <a href="about.html#"><i class="fab fa-pinterest-p"></i></a>
-                                <a href="about.html#"><i class="fab fa-instagram"></i></a>
+                                <a href="index-dark.html#"><i class="fab fa-facebook-square"></i></a>
+                                <a href="index-dark.html#"><i class="fab fa-twitter"></i></a>
+                                <a href="index-dark.html#"><i class="fab fa-pinterest-p"></i></a>
+                                <a href="index-dark.html#"><i class="fab fa-instagram"></i></a>
                             </div>
                         </div>
                     </div>
@@ -112,36 +114,35 @@
                     <div class="main-menu__wrapper-inner clearfix">
                         <div class="main-menu__left">
                             <div class="main-menu__main-menu-box">
-                                <a href="about.html#" class="mobile-nav__toggler"><i class="fa fa-bars"></i></a>
-                                 <ul class="main-menu__list">
+                                <a href="index-dark.html#" class="mobile-nav__toggler"><i class="fa fa-bars"></i></a>
+                                <ul class="main-menu__list">
                                     <li>
                                         <a href="index.html">Inicio </a>
                                         
                                     </li>
                                     <li>
-                                        <a href="#">Nosotros</a>
+                                        <a href="nosotros.html">Nosotros</a>
                                     </li>
                                     <li class="dropdown">
-                                        <a href="index.html#">Servicios</a>
+                                        <a>Servicios</a>
                                         <ul class="border-top-2px">
-                                            <li><a href="#">Diseno </a></li>
-                                            <li><a href="#">Modelado BIM</a></li>
-                                            <li><a href="#">Implementaciones</a></li>
-                                            <li><a href="#">Academico</a></li>
-                                            
+                                            <li><a href="diseño.html">Diseño</a></li>
+                                            <li><a href="modelado.html">Modelado BIM</a></li>
+                                            <li><a href="implementaciones.html">Implementaciones</a></li>
+                                            <li><a href="academico.html">Academico</a></li>
                                         </ul>
                                     </li>
                                     <li>
-                                        <a href="#">Portafolio</a>
+                                        <a href="portafolio.html">Portafolio</a>
                                         
                                     </li>
                                     
                                     <li>
-                                        <a href="#">Blog</a>
+                                        <a href="blog.html">Blog</a>
                                         
                                     </li>
                                     <li>
-                                        <a href="#">Contacto </a>
+                                        <a href="contact.html">Contacto </a>
                                     </li>
                                 </ul>
                             </div>
@@ -152,15 +153,12 @@
                                     <i class="fas fa-phone"></i>
                                 </div>
                                 <div class="main-menu__call-content">
-                                    <p>Llamanos</p>
-                                    <a href="tel:0123456789">+00 (003) 68-090</a>
+                                    <p>Contactanos</p>
+                                    <a href="tel:00000000">+001 (003) 68-090</a>
                                 </div>
                             </div>
-                            <div class="main-menu__search-box">
-                                <a href="about.html#" class="main-menu__search search-toggler icon-magnifying-glass"></a>
-                            </div>
                             <div class="main-menu__btn-box">
-                                <a href="#" class="thm-btn main-menu__btn"> <i class="fa fa-arrow-right"></i>Contactar</a>
+                                <a href="#.html" class="thm-btn main-menu__btn"> <i class="fa fa-arrow-right"></i> Contacto</a>
                             </div>
                         </div>
                     </div>
@@ -226,7 +224,7 @@
                             Así como implementando en despachos la metodología BIM mediante protocolos y estándares.
                             </p>
                             
-                            <a href="about.html" class="thm-btn about-three__btn"> <i class="fa fa-arrow-right"></i> Discover more</a>
+                            <a href="contacto.html" class="thm-btn about-three__btn"> <i class="fa fa-arrow-right"></i> Contactar</a>
                         </div>
                     </div>
                 </div>
@@ -394,7 +392,7 @@
                         <h3 class="cta-one__title">¿Necesita un diseño arquitectonico o estudio de caso?</h3>
                     </div>
                     <div class="cta-one__btn-box">
-                        <a href="#" class="thm-btn cta-one__btn"> <i class="fa fa-arrow-right"></i> Cotize aqui</a>
+                        <a href="contacto.html" class="thm-btn cta-one__btn"> <i class="fa fa-arrow-right"></i> Cotize aqui</a>
                     </div>
                 </div>
             </div>
@@ -420,10 +418,10 @@
                                     <p class="footer-widget__about-text">Sobre la empresa</p>
                                 </div>
                                 <div class="site-footer__social">
-                                    <a href="index-dark.html#"><i class="fab fa-twitter"></i></a>
-                                    <a href="index-dark.html#"><i class="fab fa-facebook"></i></a>
-                                    <a href="index-dark.html#"><i class="fab fa-pinterest-p"></i></a>
-                                    <a href="index-dark.html#"><i class="fab fa-instagram"></i></a>
+                                    <a href="index.html#"><i class="fab fa-twitter"></i></a>
+                                    <a href="index.html#"><i class="fab fa-facebook"></i></a>
+                                    <a href="index.html#"><i class="fab fa-pinterest-p"></i></a>
+                                    <a href="index.html#"><i class="fab fa-instagram"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -431,9 +429,9 @@
                             <div class="footer-widget__column footer-widget__explore clearfix">
                                 <h3 class="footer-widget__title">Links</h3>
                                 <ul class="footer-widget__explore-list list-unstyled clearfix">
-                                    <li><a href="about.html">Sobre BIM STUDIO</a></li>
+                                    <li><a href="nosotros.html">Sobre BIM STUDIO</a></li>
                                     <li><a href="contact.html">Contacto</a></li>
-                                    <li><a href="work.html">Servicios</a></li>
+                                    <li><a href="index.html">Servicios</a></li>
                                     
                                 </ul>
                             </div>
@@ -469,7 +467,7 @@
                     <div class="row">
                         <div class="col-xl-12">
                             <div class="site-footer__bottom-inner">
-                                <p class="site-footer__bottom-text">© BIM STUDIO 2022 desarrollado por <a href="https://www.buckapi.com/" target="_black">Buckapi.com</a></p>
+                                <p class="site-footer__bottom-text">© BIM STUDIO 2022 desarrollado por <a href="https://www.buckapi.us" target="_black">Buckapi.com</a></p>
                             </div>
                         </div>
                     </div>

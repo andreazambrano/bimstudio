@@ -1335,12 +1335,13 @@
     }
 
     .main-header__top {
-        padding-left: 235px;
-        padding-right: 30px;
+        padding-left: 60%;
+        /*padding-right: 30px;*/
     }
 
     .main-header__logo {
         left: 30px;
+        padding-top: 20px;
     }
 
     .main-menu__search-box {
