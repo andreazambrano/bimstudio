@@ -11,7 +11,6 @@
     <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicons/favicon-16x16.png" />
     <link rel="manifest" href="assets/images/favicons/site.webmanifest" />
     <meta name="description" content="Proyectos arquitectonicos y de ingenieria" />
-
     <!-- fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
 
@@ -20,7 +19,6 @@
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
-
 
     <link rel="stylesheet" href="assets/vendors/bootstrap/css/bootstrap.min.css" />
     <link rel="stylesheet" href="assets/vendors/animate/animate.min.css" />
@@ -70,7 +68,7 @@
                 <a href="index.html"><img src="assets/images/resources/logo-dark.png" alt=""></a>
             </div>
             <div class="main-header__top">
-                <div class="main-header__top-inner">
+                <div class="main-header__top-inner" style="justify-content: flex-end;">
                     <div class="main-header__top-address">
                         <ul class="list-unstyled main-header__top-address-list">
                             <li>
@@ -99,7 +97,7 @@
                     <div class="main-menu__wrapper-inner clearfix">
                         <div class="main-menu__right">
                             <div class="main-menu__main-menu-box">
-                                <a href="index-dark.html#" class="mobile-nav__toggler"><i class="fa fa-bars"></i></a>
+                                <a href="index.html#" class="mobile-nav__toggler"><i class="fa fa-bars"></i></a>
                                 <ul class="main-menu__list">
                                     <li>
                                         <a href="index.html">Inicio </a>
@@ -132,20 +130,7 @@
                                 </ul>
                             </div>
                         </div>
-                       <!--  <div class="main-menu__right">
-                            <div class="main-menu__call">
-                                <div class="main-menu__call-icon">
-                                    <i class="fas fa-phone"></i>
-                                </div>
-                                <div class="main-menu__call-content">
-                                    <p>Contactanos</p>
-                                    <a href="tel:00000000">+001 (003) 68-090</a>
-                                </div>
-                            </div>
-                            <div class="main-menu__btn-box">
-                                <a href="contacto.html" class="thm-btn main-menu__btn"> <i class="fa fa-arrow-right"></i> Contacto</a>
-                            </div>
-                        </div> -->
+                        
                     </div>
                 </div>
             </nav>
@@ -155,6 +140,7 @@
             <div class="sticky-header__content"></div><!-- /.sticky-header__content -->
         </div><!-- /.stricky-header -->
 
+        <!--Main Slider Start-->
         <section class="main-slider-two clearfix">
             <div class="swiper-container thm-swiper__slider" data-swiper-options='{"slidesPerView": 1, "loop": true,
                 "effect": "fade",
@@ -240,10 +226,9 @@
 
             </div>
         </section>
+        <!--Main Slider End-->
 
-
-
-
+        <!--Feature One Start-->
         <section class="process">
             <div class="process-bg" style="background-image: url(assets/images/backgrounds/process-bg.jpg);"></div>
             <div class="container">
@@ -313,10 +298,11 @@
 
         <!--About One Start-->
         <section class="about-one">
-            
+            <div class="about-one__shape float-bob-x">
+                <img src="assets/images/shapes/about-one-shape-dark.png" alt="">
+            </div>
             <div class="container">
                 <div class="row">
-
                     <div class="col-xl-6">
                         <div class="about-one__left">
                             <div class="about-one__img-box wow slideInLeft" data-wow-delay="100ms"
@@ -327,109 +313,65 @@
                                 <div class="about-one__line">
                                     <img src="assets/images/shapes/about-one-line-dark.png" alt="">
                                 </div>
-                               <!--  <div class="about-one__satisfied">
+                                <div class="about-one__satisfied">
                                     <div class="about-one__satisfied-inner">
                                         <div class="about-one__satisfied-shape">
-                                            <img src="assets/images/shapes/about-one-satisfied-shape-1.png" alt="">
+                                            <img src="assets/images/shapes/about-one-satisfied-shape-1-dark.png" alt="">
                                         </div>
                                         <div class="about-one__satisfied-content">
                                             <div class="about-one__satisfied-count-box">
                                                 <h3 class="odometer" data-count="1">00</h3>
+                                                
                                             </div>
-                                            <p class="about-one__satisfied-text">Despacho de <br> arquitectura</p>
+                                            <p class="about-one__satisfied-text">Bim studio 360</p>
                                         </div>
                                     </div>
-                                </div> -->
-                                <div class="about-one__big-text">Bim studio 360</div>
+                                </div>
+                               
                             </div>
                         </div>
                     </div>
-
-                       
-                    <div class="col-xl-6 " >
-                        
+                    <div class="col-xl-6">
                         <div class="about-one__right">
                             <div class="section-title text-left">
-
-                                <div class="about-one__big-text">Bim Studio 360</div>
                                 <div class="section-sub-title-box">
-                                     <p class="section-sub-title">Nosotros</p>
+                                    <p class="section-sub-title">Nosotros</p>
                                     <div class="section-title-shape-1">
                                         <img src="assets/images/icon/4.png" alt="">
                                     </div>
-                                        <h2 class="section-title__title">Somos un despacho de diseño y construcción</h2>
-                                    <p class="about-one__text">Ubicada Guadalajara ,Jal. Dedicada al desarrollo de proyectos integrando la Metodologia BIM en todas las fases de edificacion.<br> Con mas de diez (10) años de experiencia aplicando la metodologia BIM y participando en proyectos de distintos tipos ...</p>
-                                    <ul class="list-unstyled about-one__points">
-                                        <li>
-                                            <div class="icon-box">
-                                                <div class="icon">
-                                                    <span class="icon-confirmation"></span>
-                                                </div>
-                                                <div class="text-box">
-                                                    <p>Personal certificado</p>
-                                                </div>
-                                            </div>
-                                            
-                                        </li>
-                                        <li>
-                                            <div class="icon-box">
-                                                <div class="icon">
-                                                    <span class="icon-confirmation"></span>
-                                                </div>
-                                                <div class="text-box">
-                                                    <p>Compañia calificada</p>
-                                                </div>
-                                            </div>
-                                            
-                                        </li>
-                                    </ul>
-                                    <a href="nosotros.html" class="thm-btn about-one__btn"> <i class="fa fa-arrow-right"></i> Ver más</a>
                                 </div>
-
-                                    <!-- <input type="button" onclick="growDiv()" value="Mas" id="more-button" class="section-sub-title">
-                                    <div id='grow'>
-                                        <div class='measuringWrapper'>
-                                            <div class="text">
-                                                
-                                             <p class="about-one__text">Ubicada Guadalajara ,Jal. Dedicada al desarrollo de proyectos integrando la Metodologia BIM en todas las fases de edificacion.<br> Con mas de diez (10) años de experiencia aplicando la metodologia BIM y participando en proyectos de distintos tipos que van desde lo Habitacional, Comercial, Educacion, Salud, Religion, Cultural, Deportes, Industrial, Urbano, entre otros </p>
-                                            </div>
-                                            <ul class="list-unstyled about-one__points">
-                                                <li>
-                                                    <div class="icon-box">
-                                                        <div class="icon">
-                                                            <span class="icon-confirmation"></span>
-                                                        </div>
-                                                        <div class="text-box">
-                                                            <p>Personal calificado</p>
-                                                        </div>
-                                                    </div>
-                                                 
-                                                </li>
-                                                <li>
-                                                    <div class="icon-box">
-                                                        <div class="icon">
-                                                            <span class="icon-confirmation"></span>
-                                                        </div>
-                                                        <div class="text-box">
-                                                            <p>Compañia certificada</p>
-                                                        </div>
-                                                    </div>
-                                                    
-                                                </li>
-                                            </ul>
-                                            <a href="nosotros.html" class="thm-btn about-one__btn"> <i class="fa fa-arrow-right"></i>Ver mas.</a>
-                                        </div>
-                                    </div> -->
-                                </div>
+                                <h2 class="section-title__title">Somos un despacho de diseño y construcción</h2>
                             </div>
+                            <p class="about-one__text">Ubicada Guadalajara ,Jal. Dedicada al desarrollo de proyectos integrando la Metodologia BIM en todas las fases de edificacion.<br> Con mas de diez (10) años de experiencia aplicando la metodologia BIM y participando en proyectos de distintos tipos ...</p>
+                            <ul class="list-unstyled about-one__points">
+                                <li>
+                                    <div class="icon-box">
+                                        <div class="icon">
+                                            <span class="icon-confirmation"></span>
+                                        </div>
+                                        <div class="text-box">
+                                            <p>Personal certificado</p>
+                                        </div>
+                                    </div>
+                                    
+                                </li>
+                                <li>
+                                    <div class="icon-box">
+                                        <div class="icon">
+                                            <span class="icon-confirmation"></span>
+                                        </div>
+                                        <div class="text-box">
+                                            <p>Compañia calificada</p>
+                                        </div>
+                                    </div>
+                                   
+                                </li>
+                            </ul>
+                            <a href="nosotros.html" class="thm-btn about-one__btn"> <i class="fa fa-arrow-right"></i> Ver mas</a>
                         </div>
-
                     </div>
-                    
-
                 </div>
             </div>
-           
         </section>
         <section class="counter-one">
             <div class="container">
@@ -480,12 +422,9 @@
                 </div>
             </div>
         </section>
-        
         <!--About One End-->
-        
-        
 
-
+        <!--Services One Start-->
         <section class="services-one" id="servicios">
             
             <div class="container">
@@ -606,8 +545,6 @@
             </div>
         </section>
         <!--Services One End-->
-
-        
 
         <!--Project One Start-->
         <section class="project-one">
@@ -1199,10 +1136,6 @@
             </div>
         </section>
 
-        <!--Testimonial One End-->
-
-        
-
         <!--CTA One Start-->
         <section class="cta-one">
             <div class="cta-one__img-box">
@@ -1213,11 +1146,10 @@
             <div class="container">
                 <div class="cta-one__inner">
                     <div class="cta-one__left">
-                            <p class="cta-one__sub-title">Servicio profesional de calidad</p>
-                            <h3 class="cta-one__title">¿Te gustaria cotizar tu proyecto?</h3>
+                        <h3 class="cta-one__title">Te gustaria cotizar un proyecto?</h3>
                     </div>
                     <div class="cta-one__btn-box">
-                        <a href="#" class="thm-btn cta-one__btn"> <i class="fa fa-arrow-right"></i> Cotize aqui</a>
+                        <a href="contacto.html" class="thm-btn cta-one__btn"> <i class="fa fa-arrow-right"></i> Cotize aqui</a>
                     </div>
                 </div>
             </div>
@@ -1225,7 +1157,7 @@
         <!--CTA One End-->
 
         <!--Site Footer Start-->
-        <footer class="site-footer">
+       <footer class="site-footer">
             <div class="site-footer-img-1">
                 <img src="assets/images/resources/site-footer-img-1.png" alt="">
             </div>
@@ -1327,10 +1259,10 @@
             </ul><!-- /.mobile-nav__contact -->
             <div class="mobile-nav__top">
                 <div class="mobile-nav__social">
-                    <a href="index-dark.html#" class="fab fa-twitter"></a>
-                    <a href="index-dark.html#" class="fab fa-facebook-square"></a>
-                    <a href="index-dark.html#" class="fab fa-pinterest-p"></a>
-                    <a href="index-dark.html#" class="fab fa-instagram"></a>
+                    <a href="index.html#" class="fab fa-twitter"></a>
+                    <a href="index.html#" class="fab fa-facebook-square"></a>
+                    <a href="index.html#" class="fab fa-pinterest-p"></a>
+                    <a href="index.html#" class="fab fa-instagram"></a>
                 </div><!-- /.mobile-nav__social -->
             </div><!-- /.mobile-nav__top -->
 
@@ -1341,21 +1273,9 @@
     </div>
     <!-- /.mobile-nav__wrapper -->
 
-    <!-- <div class="search-popup">
-        <div class="search-popup__overlay search-toggler"></div>
-        <div class="search-popup__content">
-            <form action="index-dark.html#">
-                <label for="search" class="sr-only">search here</label>/.sr-only
-                <input type="text" id="search" placeholder="Search Here..." />
-                <button type="submit" aria-label="search submit" class="thm-btn">
-                    <i class="icon-magnifying-glass"></i>
-                </button>
-            </form>
-        </div>
-    </div> -->
     <!-- /.search-popup -->
 
-    <a href="index-dark.html#" data-target="html" class="scroll-to-target scroll-to-top"><i class="fa fa-angle-up"></i></a>
+    <a href="index.html#" data-target="html" class="scroll-to-target scroll-to-top"><i class="fa fa-angle-up"></i></a>
 
 
     <script src="assets/vendors/jquery/jquery-3.6.0.min.js"></script>
@@ -1382,7 +1302,7 @@
     <script src="assets/vendors/timepicker/timePicker.js"></script>
     <script src="assets/vendors/circleType/jquery.circleType.js"></script>
     <script src="assets/vendors/circleType/jquery.lettering.min.js"></script>
-    
+
 
 
 
