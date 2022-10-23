@@ -43,7 +43,7 @@
 
 body {
   font-family: var(--roofsie-font);
-  color: var(--roofsie-gray);
+  color: #fcfcfc;
   font-size: 16px;
   line-height: 30px;
   font-weight: 500;
