@@ -438,7 +438,7 @@ ul {
   height: 45px;
   background: #ffc107;
   position: fixed;
-  bottom: 40px;
+  bottom: 60px;
   right: 40px;
   z-index: 99;
   text-align: center;
@@ -2688,10 +2688,10 @@ ul {
 
 .main-slider-two__title {
   position: relative;
-  font-size: 80px;
+  font-size: 60px;
   color: var(--roofsie-white);
   font-weight: 800;
-  line-height: 95px;
+  line-height: 80px;
   margin-top: 31px;
   margin-bottom: 33px;
   opacity: 0;
@@ -2773,8 +2773,8 @@ ul {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 18px;
-  color: rgba(var(--roofsie-white-rgb), .20);
+  font-size: 25px;
+  color: #ffc107;
   border: 2px solid rgba(var(--roofsie-white-rgb), .20);
   border-radius: 50%;
   margin: 0;
@@ -3836,7 +3836,7 @@ ul {
 
 .brand-one__shape-1 {
   position: absolute;
-  top: 0;
+  top: -45px;
   left: 0;
 }
 
@@ -3846,7 +3846,7 @@ ul {
 
 .brand-one__shape-2 {
   position: absolute;
-  top: -50px;
+  top: -115px;
   right: 0;
 }
 
@@ -3911,7 +3911,7 @@ ul {
 .project-one {
   position: relative;
   display: block;
-  padding: 80px 0 80px;
+  padding: 30px 0 80px;
 }
 
 .project-one__top {
@@ -5834,7 +5834,7 @@ ul {
   position: relative;
   display: block;
   background-color: #151518;
-  padding: 80px 0 80px;
+  padding: 120px 0 80px;
   z-index: 1;
 }
 
@@ -6721,7 +6721,7 @@ ul {
 .blog-two {
   position: relative;
   display: block;
-  padding: 80px 0 80px;
+  padding: 120px 0 80px;
 }
 
 .blog-two__single {
@@ -11063,4 +11063,22 @@ body.boxed-wrapper {
   .boxed-wrapper .cta-one__img-box {
     left: -140px;
   }
+}
+
+.whatsapp {
+  position:fixed;
+  width:45px;
+  height:45px;
+  bottom: 10px;
+  right: 40px;
+  background-color:#25d366;
+  color:#fff;
+  border-radius:50%;
+  text-align:center;
+  font-size:45px;
+  z-index:100;
+}
+
+.whatsapp-icon {
+  margin-top:15px;
 }

@@ -108,7 +108,7 @@ body.boxed-wrapper .page-wrapper,
 
 .brand-one__shape-1 img,
 .brand-one__shape-2 img {
-    opacity: .10;
+    opacity: 0.5;
 }
 
 .project-one__carousel.owl-carousel .owl-dot.active {
