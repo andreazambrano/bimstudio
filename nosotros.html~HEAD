@@ -127,7 +127,7 @@
                                         <a>Servicios</a>
                                         <ul class="border-top-2px">
                                             <li><a href="diseño.html">Diseño</a></li>
-                                            <li><a href="modelado.html">Modelado BIM</a></li>
+                                            <li><a href="modelado.html">Modelado Bim</a></li>
                                             <li><a href="implementaciones.html">Implementaciones</a></li>
                                             <li><a href="academico.html">Academico</a></li>
                                         </ul>
@@ -181,7 +181,7 @@
                         <li><span>/</span></li>
                         <li>Nosotros</li>
                     </ul>
-                    <h2>BIM STUDIO 360</h2>
+                    <h2>Bim STUDIO 360</h2>
                 </div>
             </div>
         </section>
@@ -216,12 +216,12 @@
                                 </div>
                                 <h2 class="section-title__title">Nosotros</h2>
                             </div>
-                            <p class="about-three__text">Somos un despacho orgullosamente Mexicano que radica en la ciudad de Guadalajara, Jal. Dedicado al desarrollo integral de proyectos utilizando la Metodología BIM en cada fase del proyecto para la edificación.</p>
+                            <p class="about-three__text">Somos un despacho orgullosamente Mexicano que radica en la ciudad de Guadalajara, Jal. Dedicado al desarrollo integral de proyectos utilizando la Metodología Bim en cada fase del proyecto para la edificación.</p>
                              <p class="about-three__text">
-                            Con más de 15 años de experiencia en el uso de herramientas BIM participando en proyectos de distintos tipos que van desde el Habitacional, Comercial, Educación, Salud, Cultural, Religión, Deporte, Industrial, Urbano, Infraestructura, entre otros.</p>
+                            Con más de 15 años de experiencia en el uso de herramientas Bim participando en proyectos de distintos tipos que van desde el Habitacional, Comercial, Educación, Salud, Cultural, Religión, Deporte, Industrial, Urbano, Infraestructura, entre otros.</p>
                              <p class="about-three__text">
                             Además de dedicarnos a enseñar con el gusto y la pasión con más de 10 años de trayectoria en lo académico, impartiendo catedra desde nivel licenciatura, maestrías, especialidades, diplomados, seminarios, cursos, talleres y conferencias, Colaborando con distintos centros académicos desde Institutos hasta Universidades.
-                            Así como implementando en despachos la metodología BIM mediante protocolos y estándares.
+                            Así como implementando en despachos la metodología Bim mediante protocolos y estándares.
                             </p>
                             
                             <a href="contacto.html" class="thm-btn about-three__btn"> <i class="fa fa-arrow-right"></i> Contactar</a>
@@ -429,7 +429,7 @@
                             <div class="footer-widget__column footer-widget__explore clearfix">
                                 <h3 class="footer-widget__title">Links</h3>
                                 <ul class="footer-widget__explore-list list-unstyled clearfix">
-                                    <li><a href="nosotros.html">Sobre BIM STUDIO</a></li>
+                                    <li><a href="nosotros.html">Sobre Bim STUDIO</a></li>
                                     <li><a href="contact.html">Contacto</a></li>
                                     <li><a href="index.html">Servicios</a></li>
                                     
@@ -467,7 +467,7 @@
                     <div class="row">
                         <div class="col-xl-12">
                             <div class="site-footer__bottom-inner">
-                                <p class="site-footer__bottom-text">© BIM STUDIO 2022 desarrollado por <a href="https://www.buckapi.us" target="_black">Buckapi.com</a></p>
+                                <p class="site-footer__bottom-text">© Bim STUDIO 2022 desarrollado por <a href="https://www.buckapi.us" target="_black">Buckapi.com</a></p>
                             </div>
                         </div>
                     </div>
