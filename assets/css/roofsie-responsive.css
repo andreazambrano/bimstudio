@@ -594,6 +594,7 @@
     .section-title__title {
         font-size: 30px;
         line-height: 40px;
+        font-family: cursive;
     }
 
     .feature-one__single {
@@ -893,7 +894,7 @@
     }
 
     .counter-one__list li {
-        flex: 0 0 100%;
+        /*flex: 0 0 100%;*/
         max-width: 100%;
         margin-bottom: 30px;
     }
@@ -1292,16 +1293,6 @@
 
 }
 
-
-
-
-
-
-
-
-
-
-
 /*--------------------------------------------------------------
 # Main Menu All Responsice Css
 --------------------------------------------------------------*/
@@ -1431,16 +1422,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
 }
 
 
@@ -1517,21 +1498,6 @@
     .main-menu-three .mobile-nav__toggler:hover {
         color: var(--roofsie-base);
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
