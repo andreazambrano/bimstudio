@@ -11,10 +11,13 @@ body.boxed-wrapper .page-wrapper,
 .main-menu__call-icon,
 .why-choose-one,
 .brand-one__single:before,
-.project-one__carousel.owl-carousel .owl-dots .owl-dot,
+.project-one__carousel.owl-carousel 
 .testimonial-one,
 .blog-one__content {
     background-color: #1c1b1f;
+}
+.owl-dots .owl-dot {
+    background-color: #f8f9fa;
 }
 
 .services-one__text{

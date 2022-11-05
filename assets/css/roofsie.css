@@ -134,8 +134,8 @@ ul {
 }
 
 .container {
-  padding-left: 15px;
-  padding-right: 15px;
+      padding-left: 5px;
+    padding-right: 5px;
 }
 
 @media (min-width: 1200px) {
@@ -3941,9 +3941,9 @@ ul {
   position: absolute;
   top: -335px;
   right: 309px;
-  background-image: -moz-linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgb(255, 79, 71) 100%);
-  background-image: -webkit-linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgb(255, 79, 71) 100%);
-  background-image: -ms-linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgb(255, 79, 71) 100%);
+  background-image: -moz-linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgb(239 184 16) 100%);
+  background-image: -webkit-linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgb(239 184 16) 100%);
+  background-image: -ms-linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgb(239 184 16) 100%);
   opacity: 0.502;
   width: 98px;
   height: 765px;
@@ -4720,9 +4720,9 @@ ul {
   width: 85px;
   height: 85px;
   border-radius: 50%;
-  background-image: -moz-linear-gradient(90deg, rgb(28, 27, 31) 0%, rgb(255, 79, 71) 100%);
-  background-image: -webkit-linear-gradient(90deg, rgb(28, 27, 31) 0%, rgb(255, 79, 71) 100%);
-  background-image: -ms-linear-gradient(90deg, rgb(28, 27, 31) 0%, rgb(255, 79, 71) 100%);
+  background-image: -moz-linear-gradient(90deg, rgb(28, 27, 31) 0%, rgb(239 184 16) 100%);
+  background-image: -webkit-linear-gradient(90deg, rgb(28, 27, 31) 0%, rgb(239 184 16) 100%);
+  background-image: -ms-linear-gradient(90deg, rgb(28, 27, 31) 0%, rgb(239 184 16) 100%);
 }
 
 .testimonial-one__client-img {
@@ -5560,7 +5560,7 @@ ul {
   bottom: -50px;
   right: 120px;
   border-radius: 30px;
-  background-color: rgb(255, 79, 71);
+  background-color: rgb(239 184 16);
   width: 159px;
   height: 140px;
   z-index: -1;
@@ -7662,7 +7662,7 @@ ul {
   left: 42px;
   top: 0;
   border-width: 100px;
-  border-color: rgb(255, 79, 71);
+  border-color: rgb(239 184 16);
   border-style: solid;
   border-radius: 50%;
   width: 494px;
@@ -7840,9 +7840,9 @@ ul {
   right: 0;
   content: "";
   border-radius: var(--roofsie-bdr-radius);
-  background-image: -moz-linear-gradient(90deg, rgb(255, 79, 71) 0%, rgba(28, 27, 31, 0) 65%);
-  background-image: -webkit-linear-gradient(90deg, rgb(255, 79, 71) 0%, rgba(28, 27, 31, 0) 65%);
-  background-image: -ms-linear-gradient(90deg, rgb(255, 79, 71) 0%, rgba(28, 27, 31, 0) 65%);
+  background-image: -moz-linear-gradient(90deg, rgb(239 184 16) 0%, rgba(28, 27, 31, 0) 65%);
+  background-image: -webkit-linear-gradient(90deg, rgb(239 184 16) 0%, rgba(28, 27, 31, 0) 65%);
+  background-image: -ms-linear-gradient(90deg, rgb(239 184 16) 0%, rgba(28, 27, 31, 0) 65%);
   opacity: 0;
   -webkit-transition: all 700ms ease;
   -ms-transition: all 700ms ease;
