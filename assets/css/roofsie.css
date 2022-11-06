@@ -6226,7 +6226,7 @@ ul {
 }
 
 .project-filter.style1 li .filter-text {
-  color: var(--roofsie-black);
+  color: #fbf9ff;
   font-size: 14px;
   font-weight: 700;
   text-transform: uppercase;
@@ -8716,6 +8716,7 @@ ul {
   position: relative;
   display: block;
   z-index: 15;
+  margin-left: 3%;
 }
 
 .page-header__inner h2 {
@@ -11355,3 +11356,54 @@ body.boxed-wrapper {
 .whatsapp-icon {
   margin-top:15px;
 }
+
+
+
+*{
+    
+    margin:0;
+    padding:0;
+}
+
+
+
+#fullscreen{
+    
+    #background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url('assets/images/backgrounds/pricing-one-bg.jpg');
+    #background-size: cover;
+    #background-position: center;
+    #height: 100%;
+    
+}
+
+#fullscreen h1{
+    
+    #font-size: 50px;
+    #position: absolute;
+    #top: 100px;
+    #left: 500px;
+    #font-weight: 200;
+    #color:aquamarine;
+}
+
+#particles-js {
+    
+    height: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url('assets/images/backgrounds/pricing-one-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    
+}
+
+#particles-js h1{
+    
+    font-size: 50px;
+    position: absolute;
+    top: 100px;
+    left: 500px;
+    font-weight: 200;
+    color:aquamarine;
+}
+
+
+
